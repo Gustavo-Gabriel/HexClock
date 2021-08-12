@@ -7,4 +7,6 @@ Hex Clock é um app que foi construido com a linguagem swift, a aplicação cons
 # Tecnologias Utilizadas
 - Swift
 - SwiftUI
+![antes](https://user-images.githubusercontent.com/48400072/129282826-7e2bfdff-cd25-4463-a875-3ae046751cad.png)
 
+# 
