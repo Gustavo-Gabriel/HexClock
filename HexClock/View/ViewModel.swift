@@ -3,7 +3,6 @@ import SwiftUI
 final class ViewModel: ObservableObject {
     @Published var hex: String
     
-    
     init() {
         self.hex = ""
     }
