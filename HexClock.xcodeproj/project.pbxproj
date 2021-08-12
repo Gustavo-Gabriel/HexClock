@@ -11,6 +11,8 @@
 		F15C680B26C54DAB00149586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C680A26C54DAB00149586 /* ContentView.swift */; };
 		F15C680D26C54DAD00149586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15C680C26C54DAD00149586 /* Assets.xcassets */; };
 		F15C681026C54DAD00149586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15C680F26C54DAD00149586 /* Preview Assets.xcassets */; };
+		F1C14B9426C56C84000E9266 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C14B9326C56C84000E9266 /* Color+Ext.swift */; };
+		F1C14B9626C57056000E9266 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C14B9526C57056000E9266 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F15C680C26C54DAD00149586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F15C680F26C54DAD00149586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F15C681126C54DAD00149586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C14B9326C56C84000E9266 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		F1C14B9526C57056000E9266 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		F15C680726C54DAB00149586 /* HexClock */ = {
 			isa = PBXGroup;
 			children = (
-				F15C680826C54DAB00149586 /* HexClockApp.swift */,
-				F15C680A26C54DAB00149586 /* ContentView.swift */,
+				F1C14B9926C577E3000E9266 /* Extension */,
+				F1C14B9826C577CD000E9266 /* View */,
+				F1C14B9726C577B8000E9266 /* App */,
 				F15C680C26C54DAD00149586 /* Assets.xcassets */,
 				F15C681126C54DAD00149586 /* Info.plist */,
 				F15C680E26C54DAD00149586 /* Preview Content */,
@@ -67,6 +72,31 @@
 				F15C680F26C54DAD00149586 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1C14B9726C577B8000E9266 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F15C680826C54DAB00149586 /* HexClockApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1C14B9826C577CD000E9266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C14B9526C57056000E9266 /* ViewModel.swift */,
+				F15C680A26C54DAB00149586 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C14B9926C577E3000E9266 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1C14B9326C56C84000E9266 /* Color+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15C680B26C54DAB00149586 /* ContentView.swift in Sources */,
+				F1C14B9426C56C84000E9266 /* Color+Ext.swift in Sources */,
+				F1C14B9626C57056000E9266 /* ViewModel.swift in Sources */,
 				F15C680926C54DAB00149586 /* HexClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
